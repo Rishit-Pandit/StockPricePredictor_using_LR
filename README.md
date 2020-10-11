@@ -1,7 +1,7 @@
-# Stock Price Predictor using a Support Vector Machine
-A <b>Support Vector Machine (SVM)</b> works on a simple formula and draws a line between the two different sets data points to separate them and predict the next value in the dataset. It uses `Gradient Descent` and `Error Optimisation` to reduce the error and get better and better with its predictions. In this notebook we will use `pandas` to get the datasets and read them and `numpy` to organise the datsets and `sci-kit learn` to prepare our model and predict the closing stock prices of any given company by just looking at the opening price of the stocks and `matplotlib` to visualize the datasets.
+# Stock Price Predictor using a Linear Regression
+A **Linear Regression** model works on a simple formula and draws a line between the two different sets data points to separate them and predict the next value in the dataset. It uses `Gradient Descent` and `Error Optimisation` to reduce the error and get better and better with its predictions. In this notebook we will use `pandas` to get the datasets and read them and `numpy` to organise the datsets and `sci-kit learn` to prepare our model and predict the closing stock prices of any given company by just looking at the opening price of the stocks and `matplotlib` to visualize the datasets.
 ## How this works
-This model uses a <b>SVM</b> which works by drawing a line across a 2d plane ploting the `x_train` and `y_train` together with the minimum error. It uses the formula `y = mx + b` - where `y` is the dependent value, `m` is the slope of the line, `x` is the independent variable and `b` is the point from where the line starts - to predict the next y value on the line which it just drew.
+This model uses **Linear Regression** which works by drawing a line across a 2d plane ploting the `x_train` and `y_train` together with the minimum error. It uses the formula `y = mx + b` - where `y` is the dependent value, `m` is the slope of the line, `x` is the independent variable and `b` is the point from where the line starts - to predict the next y value on the line which it just drew.
 ## Requirements
 To use this model you have to install the following modules:
 ```bash
@@ -12,11 +12,11 @@ pip install matplotlib
 ```
 Then you can just execute the following command in the terminal - 
 ```bash
-python StockPricePredictor_using_SVM.py
+python StockPricePredictor_using_LR.py
 ```
 and use the model that I have prepared.
 ## Do It Yourself Step-by-Step Guide
-Now if you want to build it yourself and understand the exact working of `Support Vector Machines` the you can just read through this guide.
+Now if you want to build it yourself and understand the exact working of `Linear Regression` the you can just read through this guide.
 #### 1. Install the dependencies
 We'll need `pandas`, `numpy`, `sklearn` and `matplotlib` for the basic working of our model so after installing them import them using:
 ```python
